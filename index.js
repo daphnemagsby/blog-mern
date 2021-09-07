@@ -17,11 +17,11 @@ app.get('/about', (req, res)=>{
 });
 
 app.get('/contact', (req, res)=>{
-	res.render('about');
+	res.render('contact');
 });
 
 app.get('/post', (req, res)=>{
-	res.render('about');
+	res.render('post');
 });
 
 
